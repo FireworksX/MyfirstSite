@@ -52,7 +52,7 @@ body{
 	margin: 0 auto;
 	background-color: rgb(230, 230, 230);
 	text-align: center;
-	min-height: 300px;
+	min-height: 900px;
 }
 	
 .wrapper_black h1{
@@ -103,8 +103,6 @@ body{
 	background-color: rgba(245, 123, 19, 0.87);
 	width: 100%;
 	height: 200px;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 .col1 img{
@@ -126,4 +124,35 @@ body{
 	width: 27%;
 	background-position: center center;
 	float: left;
+}
+
+.box{
+	margin: 0 auto;
+	width: 1170px;
+	height: 700px;
+	border: 1px solid #000;
+	position: relative;
+	top: 50px;
+}
+
+
+button{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#347baa+0,2a97e0+57,207cca+100,207cca+100,7db9e8+100 */
+	background: #347baa; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #347baa 0%, #2a97e0 57%, #207cca 100%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #347baa 0%,#2a97e0 57%,#207cca 100%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #347baa 0%,#2a97e0 57%,#207cca 100%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347baa', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	height: 32px;
+	width: 150px;
+	border: none;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.wrap p{
+	position: fixed;
+	bottom: 30px;
 }
